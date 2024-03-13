@@ -8,7 +8,7 @@ What do you think the `assert` is testing? Do you remember learning about the di
 
 ## Student Response
 ![Image](labreport5-correct.png) <br>
-Thank you, it works now! I looked into different `assert` methods and learned that the issue was with the one that I was using. I was using `assertEquals`, where the underlying process was the `equals()` method. It seems that arrays don't override this method, which is why there was an error as they are compared as two separate objects which are non-equal. I think that this is what JUnit was showing with how to displayed two different references in the error that I got. So, using `assertArrayEquals()`, the contents of the arrays are compared and it works properly. I notice that this is similar to how we have to compare arrays using `Arrays.equals()` instead of just `equals()`. Thank you for the help!
+Thank you, it works now! I looked into different `assert` methods and learned that the issue was with the one that I was using. I was using `assertEquals`, where the underlying process was the `equals()` method. It seems that arrays don't override this method, which is why there was an error as they are compared as two separate objects which are non-equal. I think that this is what JUnit was showing with how to displayed two different references in the error that I got. So, using `assertArrayEquals()`, the contents of the arrays are compared and it works as expected. I noticed that this is also similar to how we have to compare arrays using `Arrays.equals()` instead of just `equals()`. Thank you for the help!
 
 ## Information about setup 
 ![Image](labreport5-structure.png) <br>
