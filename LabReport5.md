@@ -13,7 +13,7 @@ Thank you, it works now! I looked into different `assert` methods and learned th
 ## Information about setup 
 ![Image](labreport5-structure.png) <br>
 ![Image](labreport5-setup2.png) <br>
-![Image](labreport5-setup3.png) <br>
+![Image](labreport5-contents.png) <br>
 ![Image](labreport5-setup2-1.png) <br>
 ![Image](labreport5-setup4-fixed.png) <br>
 To fix the bug, the change that was needed was to change the `assert` used. So, instead of `assertEquals`, use `assertArrayEquals`.
