@@ -1,4 +1,4 @@
-![image](https://github.com/ThomasNghiem2/cse15l-lab-report-5/assets/141669883/60559191-7973-46fb-8613-9e7b1ebfeb22)## Student Post
+## Student Post
 ![Image](labreport5-symptom2.png) <br>
 ![Image](labreport5-symptom.png) <br>
 Hello, I was having issues with the `reverseInPlace` test in `ArrayTests.java`. I'm pretty sure that I did the method correctly, so I think that it might have something to do with JUnit. The `assert` is giving the error saying that they are not the same and giving a jumble of letters and numbers. Overall, I think this error has something to do with the stucture of my JUnit test. Thank you for any feedback!
